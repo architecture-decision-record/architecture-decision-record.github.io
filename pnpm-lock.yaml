@@ -11,6 +11,12 @@ importers:
       lily-design-system-svelte-headless:
         specifier: ^0.3.1
         version: 0.3.1(svelte@5.57.0)
+      lily-design-system-svelte-locale-picker:
+        specifier: ^0.1.1
+        version: 0.1.1(svelte@5.57.0)
+      lily-design-system-svelte-picker-bar:
+        specifier: ^0.1.0
+        version: 0.1.0(svelte@5.57.0)
       lily-design-system-svelte-share-picker:
         specifier: ^0.1.1
         version: 0.1.1(svelte@5.57.0)
@@ -536,6 +542,17 @@ packages:
     peerDependencies:
       svelte: ^5.0.0
 
+  lily-design-system-svelte-locale-picker@0.1.1:
+    resolution: {integrity: sha512-RUfIiN9NlQe3dLtAwwoXyK7hUmmuRFUWxtwZrztiFE/cxUb+fm1O8uUtfbp8xKeZT+HZYwwwOoPP5OvvcWOlMQ==}
+    peerDependencies:
+      svelte: ^5.0.0
+
+  lily-design-system-svelte-picker-bar@0.1.0:
+    resolution: {integrity: sha512-evMdr5ExSsFVDy61kSz1qKw04/7AEH7/vlkLn5jVDy8GgqGoa62XtfG4pJKsd8RzubFGmkTAWW2r3R4a+Uyjtg==}
+    engines: {node: '=26'}
+    peerDependencies:
+      svelte: ^5.0.0
+
   lily-design-system-svelte-share-picker@0.1.1:
     resolution: {integrity: sha512-UAzR6kFMVZA/00nRmFd67tTwI1bS92QdjZ9FdJvcPKgDNkfOE441TUdYJa2KtSeRz5NaLbJ0UGKwnzG/bgYtZw==}
     peerDependencies:
@@ -1057,6 +1074,18 @@ snapshots:
   lily-design-system-svelte-headless@0.3.1(svelte@5.57.0):
     dependencies:
       aria-query: 5.3.2
+      svelte: 5.57.0
+
+  lily-design-system-svelte-locale-picker@0.1.1(svelte@5.57.0):
+    dependencies:
+      svelte: 5.57.0
+
+  lily-design-system-svelte-picker-bar@0.1.0(svelte@5.57.0):
+    dependencies:
+      lily-design-system-svelte-locale-picker: 0.1.1(svelte@5.57.0)
+      lily-design-system-svelte-share-picker: 0.1.1(svelte@5.57.0)
+      lily-design-system-svelte-text-size-picker: 0.1.1(svelte@5.57.0)
+      lily-design-system-svelte-theme-picker: 0.1.1(svelte@5.57.0)
       svelte: 5.57.0
 
   lily-design-system-svelte-share-picker@0.1.1(svelte@5.57.0):

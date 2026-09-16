@@ -1,7 +1,7 @@
 // All 45 ready-made Lily Design System themes. Each theme is a standalone
 // CSS file (static/themes/<id>.css) that styles every one of Lily's 492
-// component class hooks — see ThemePicker.svelte, which lazy-loads exactly
-// one of these per selection rather than bundling all 45 up front.
+// component class hooks — see Header.svelte's PickerBar, which lazy-loads
+// exactly one of these per selection rather than bundling all 45 up front.
 export interface ThemeOption {
 	id: string;
 	label: string;

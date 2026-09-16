@@ -1,8 +1,66 @@
 <script lang="ts">
+	// Header — the site's picker controls come from Lily's picker-bar
+	// helper, which composes theme, locale, text-size, and share pickers
+	// into one row. Each picker still persists its own slug to
+	// localStorage (see the storageKey below and app.html, which applies
+	// the stored theme/text-size before first paint to avoid a flash).
 	import { ContainerWithFixedWidth, Header } from 'lily-design-system-svelte-headless';
-	import ThemePicker from './ThemePicker.svelte';
-	import TextSizePicker from './TextSizePicker.svelte';
-	import SharePicker from './SharePicker.svelte';
+	import PickerBar from 'lily-design-system-svelte-picker-bar';
+	import type { ShareTarget } from 'lily-design-system-svelte-share-picker';
+	import { themes, DEFAULT_THEME_ID } from '$lib/data/themes';
+
+	const THEME_STORAGE_KEY = 'adr-theme';
+	const LOCALE_STORAGE_KEY = 'adr-locale';
+	const TEXT_SIZE_STORAGE_KEY = 'adr-text-size';
+	const DEFAULT_TEXT_SIZE = 'default';
+
+	const themeSlugs = themes.map((t) => t.id);
+	const themeLabels = Object.fromEntries(themes.map((t) => [t.id, t.label]));
+
+	// This site's own 5-step scale (theme.css only defines --user-font-scale
+	// for these four data-text-size values; unset/'default' is scale 1) —
+	// not picker-bar's 7-step DEFAULT_SIZES.
+	const TEXT_SIZES = ['small', 'default', 'large', 'larger', 'largest'];
+
+	// English-only content today; en_US is offered because the picker's
+	// built-in label table already distinguishes it ("English" vs
+	// "English (United States)"). Selecting either only sets lang/dir on
+	// <html> — no translated content exists yet.
+	const LOCALES = ['en', 'en_US'];
+
+	const shareTargets: ShareTarget[] = [
+		{
+			id: 'email',
+			label: 'Share on Email',
+			href: (url, title) => `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(url)}`,
+			newTab: false
+		},
+		{
+			id: 'linkedin',
+			label: 'Share on LinkedIn',
+			href: (url) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`
+		},
+		{
+			id: 'reddit',
+			label: 'Share on Reddit',
+			href: (url, title) => `https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}`
+		},
+		{
+			id: 'bluesky',
+			label: 'Share on Bluesky',
+			href: (url, title) => `https://bsky.app/intent/compose?text=${encodeURIComponent(`${title} ${url}`)}`
+		},
+		{
+			id: 'mastodon',
+			label: 'Share on Mastodon',
+			href: (url, title) => `https://mastodonshare.com/?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`
+		}
+	];
+
+	// The closed theme control is one glyph, so nothing else on the page
+	// states the active theme. Tracked here (via themeProps.onChange) only
+	// to feed the visually-hidden status paragraph below.
+	let activeTheme = $state(DEFAULT_THEME_ID);
 </script>
 
 <Header label="Site header">
@@ -19,9 +77,38 @@
 				<a href="/skills/">Claude skills</a>
 			</nav>
 			<div class="site-header-controls">
-				<TextSizePicker />
-				<ThemePicker />
-				<SharePicker />
+				<PickerBar
+					labels={{
+						theme: 'Colour theme — all Lily Design System themes',
+						locale: 'Language',
+						textSize: 'Text size',
+						share: 'Share Picker'
+					}}
+					themesUrl="/themes/"
+					themes={themeSlugs}
+					themeProps={{
+						themeLabels,
+						storageKey: THEME_STORAGE_KEY,
+						defaultValue: DEFAULT_THEME_ID,
+						name: 'theme',
+						onChange: (theme: string) => (activeTheme = theme)
+					}}
+					locales={LOCALES}
+					localeProps={{ storageKey: LOCALE_STORAGE_KEY, defaultValue: 'en', name: 'locale' }}
+					sizes={TEXT_SIZES}
+					textSizeProps={{
+						storageKey: TEXT_SIZE_STORAGE_KEY,
+						defaultValue: DEFAULT_TEXT_SIZE,
+						name: 'text-size'
+					}}
+					{shareTargets}
+					shareProps={{
+						title: 'Architecture Decision Record (ADR)',
+						copyLabel: 'Copy link',
+						copiedLabel: 'Link copied to clipboard',
+						copyFailedLabel: 'Could not copy — copy it from the address bar'
+					}}
+				/>
 				<a
 					class="icon-button"
 					href="https://github.com/architecture-decision-record/architecture-decision-record"
@@ -37,3 +124,9 @@
 		</div>
 	</ContainerWithFixedWidth>
 </Header>
+<!-- Visually hidden — the header stays icon-only — but present for
+     assistive technology, and aria-live announces only on change, so it
+     stays silent at first paint. -->
+<p class="theme-picker-status visually-hidden" aria-live="polite">
+	Active theme: {themeLabels[activeTheme] ?? activeTheme}
+</p>
