@@ -24,12 +24,12 @@
 		"vite": "^6.4.3"
 	},
 	"dependencies": {
-		"lily-design-system-svelte-headless": "^0.3.1",
-		"lily-design-system-svelte-locale-picker": "^0.1.1",
-		"lily-design-system-svelte-picker-bar": "^0.1.0",
-		"lily-design-system-svelte-share-picker": "^0.1.1",
-		"lily-design-system-svelte-text-size-picker": "^0.1.1",
-		"lily-design-system-svelte-theme-picker": "^0.1.1",
+		"@lilydesignsystem/svelte-headless": "^0.1.0",
+		"@lilydesignsystem/svelte-locale-picker": "^0.1.0",
+		"@lilydesignsystem/svelte-picker-bar": "^0.1.0",
+		"@lilydesignsystem/svelte-share-picker": "^0.1.0",
+		"@lilydesignsystem/svelte-text-size-picker": "^0.1.0",
+		"@lilydesignsystem/svelte-theme-picker": "^0.1.0",
 		"rehype-slug": "^6.0.0"
 	},
 	"pnpm": {

@@ -4,9 +4,9 @@
 	// into one row. Each picker still persists its own slug to
 	// localStorage (see the storageKey below and app.html, which applies
 	// the stored theme/text-size before first paint to avoid a flash).
-	import { ContainerWithFixedWidth, Header } from 'lily-design-system-svelte-headless';
-	import PickerBar from 'lily-design-system-svelte-picker-bar';
-	import type { ShareTarget } from 'lily-design-system-svelte-share-picker';
+	import { ContainerWithFixedWidth, Header } from '@lilydesignsystem/svelte-headless';
+	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
+	import type { ShareTarget } from '@lilydesignsystem/svelte-share-picker';
 	import { themes, DEFAULT_THEME_ID } from '$lib/data/themes';
 
 	const THEME_STORAGE_KEY = 'adr-theme';

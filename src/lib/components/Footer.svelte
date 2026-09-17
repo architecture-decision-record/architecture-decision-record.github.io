@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ContainerWithFixedWidth } from 'lily-design-system-svelte-headless';
+	import { ContainerWithFixedWidth } from '@lilydesignsystem/svelte-headless';
 </script>
 
 <footer class="site-footer">
