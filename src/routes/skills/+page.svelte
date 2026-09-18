@@ -1,15 +1,15 @@
 <svelte:head>
-	<title>Claude Code skills — Architecture Decision Record</title>
+	<title>AI skills — Architecture Decision Record</title>
 	<meta
 		name="description"
-		content="Two Claude Code skills for writing and maintaining architecture decision records (ADRs), and how to install them."
+		content="Two AI skills for writing and maintaining architecture decision records (ADRs), and how to install them."
 	/>
 </svelte:head>
 
 <a class="back-link" href="/">&larr; Home</a>
 
 <article class="prose">
-	<h1>Claude Code skills for ADRs</h1>
+	<h1>AI skills for ADRs</h1>
 	<p>
 		The <a href="https://github.com/architecture-decision-record/architecture-decision-record">architecture-decision-record</a>
 		repository ships two <a href="https://claude.com/claude-code">Claude Code</a> skills under

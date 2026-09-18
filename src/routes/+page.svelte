@@ -10,7 +10,7 @@
 	/>
 </svelte:head>
 
-<section class="hero">
+<section class="intro">
 	<h1>Architecture decision record (ADR)</h1>
 	<p>
 		An architecture decision record (ADR) is a document that captures an important architecture
@@ -25,7 +25,7 @@
 </section>
 
 <section>
-	<h2>New: Claude Code skills for ADRs</h2>
+	<h2>New: AI skills for ADRs</h2>
 	<p>
 		Two <a href="https://claude.com/claude-code">Claude Code</a> skills ship in the source repository
 		so an AI coding agent can write and maintain ADRs the way this project recommends — see the

@@ -13,7 +13,7 @@
  *   2. Prose typography for the rendered Markdown guide/template/example
  *      pages (`.prose`), which isn't part of Lily's own catalog.
  *   3. Site-specific hooks that aren't part of the Lily catalog at all
- *      (.brand, .site-nav, .card-grid, .hero, .link-list).
+ *      (.brand, .site-nav, .card-grid, .intro, .link-list).
  *   4. The data-text-size → --user-font-scale mapping TextSizePicker.svelte's
  *      own doc comment describes: the picker only ever sets the data
  *      attribute, the scale value lives here.
@@ -128,16 +128,6 @@ a {
 	margin-left: auto;
 }
 
-.github-link {
-	text-decoration: none;
-	color: var(--color-base-content);
-}
-
-.github-link:hover,
-.github-link:focus-visible {
-	color: var(--color-primary);
-}
-
 main {
 	max-width: 64rem;
 	margin: 0 auto;
@@ -245,17 +235,23 @@ main {
 	color: var(--lily-text-muted, var(--color-base-content));
 }
 
-/* --- Home page hero and skill spotlight cards --- */
-.hero {
+/* --- Home page intro ---
+ * Named `.intro`, not `.hero`: Lily's own catalog already styles a
+ * `.hero` class hook as a filled, centered banner (background-color:
+ * var(--color-primary)) — reusing that name here silently pulled in
+ * that styling, leaving this section's paragraph text (page-background
+ * contrast) unreadable against the primary-coloured box it landed on.
+ */
+.intro {
 	padding: 2rem 0 1rem;
 }
 
-.hero h1 {
+.intro h1 {
 	font-size: 2.25rem;
 	margin-bottom: 0.5rem;
 }
 
-.hero p {
+.intro p {
 	font-size: 1.15rem;
 	max-width: 42rem;
 	color: var(--lily-text-muted, var(--color-base-content));

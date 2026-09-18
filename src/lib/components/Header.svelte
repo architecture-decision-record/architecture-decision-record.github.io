@@ -74,6 +74,9 @@
 				<a href="/templates/">Templates</a>
 				<a href="/examples/">Examples</a>
 				<a href="/skills/">Skills</a>
+				<a href="https://github.com/architecture-decision-record/architecture-decision-record">
+					GitHub
+				</a>
 			</nav>
 			<div class="site-header-controls">
 				<PickerBar
@@ -108,12 +111,6 @@
 						copyFailedLabel: 'Could not copy — copy it from the address bar'
 					}}
 				/>
-				<a
-					class="github-link"
-					href="https://github.com/architecture-decision-record/architecture-decision-record"
-				>
-					GitHub
-				</a>
 			</div>
 		</div>
 	</ContainerWithFixedWidth>
