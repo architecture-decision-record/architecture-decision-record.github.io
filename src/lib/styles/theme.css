@@ -13,7 +13,7 @@
  *   2. Prose typography for the rendered Markdown guide/template/example
  *      pages (`.prose`), which isn't part of Lily's own catalog.
  *   3. Site-specific hooks that aren't part of the Lily catalog at all
- *      (.brand, .site-nav, .card-grid, .hero, .skill-card).
+ *      (.brand, .site-nav, .card-grid, .hero, .link-list).
  *   4. The data-text-size → --user-font-scale mapping TextSizePicker.svelte's
  *      own doc comment describes: the picker only ever sets the data
  *      attribute, the scale value lives here.
@@ -43,8 +43,17 @@ html {
 	scroll-behavior: smooth;
 }
 
+html[data-text-size='smallest'] {
+	--user-font-scale: 0.625;
+}
+html[data-text-size='smaller'] {
+	--user-font-scale: 0.75;
+}
 html[data-text-size='small'] {
 	--user-font-scale: 0.875;
+}
+html[data-text-size='normal'] {
+	--user-font-scale: 1;
 }
 html[data-text-size='large'] {
 	--user-font-scale: 1.125;
@@ -90,6 +99,11 @@ a {
 	font-size: 1.05rem;
 }
 
+.brand-icon {
+	flex-shrink: 0;
+	border-radius: var(--radius-field, 0.25rem);
+}
+
 .site-nav {
 	display: flex;
 	gap: 1.25rem;
@@ -114,20 +128,14 @@ a {
 	margin-left: auto;
 }
 
-.icon-button {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 2.25rem;
-	height: 2.25rem;
-	border-radius: var(--radius-field, 0.5rem);
-	color: inherit;
+.github-link {
 	text-decoration: none;
+	color: var(--color-base-content);
 }
 
-.icon-button:hover,
-.icon-button:focus-visible {
-	background: var(--color-base-200);
+.github-link:hover,
+.github-link:focus-visible {
+	color: var(--color-primary);
 }
 
 main {
@@ -275,28 +283,26 @@ main {
 	color: var(--color-base-content);
 }
 
-.notice {
-	border: 1px solid var(--color-warning);
-	background: color-mix(in oklch, var(--color-warning) 15%, var(--color-base-100));
-	border-radius: var(--radius-box, 0.5rem);
-	padding: 1rem;
+/* --- Home page: a vertical list rather than a grid of tiles --- */
+.link-list {
+	list-style: none;
 	margin: 1.5rem 0;
+	padding: 0;
+	border-top: 1px solid var(--lily-border, color-mix(in oklch, var(--color-base-content) 20%, transparent));
 }
 
-.skill-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-	gap: 1.25rem;
-	margin: 1.5rem 0;
+.link-list-item {
+	padding: 1rem 0;
+	border-bottom: 1px solid var(--lily-border, color-mix(in oklch, var(--color-base-content) 20%, transparent));
 }
 
-.skill-card {
-	border: 1px solid var(--lily-border, color-mix(in oklch, var(--color-base-content) 20%, transparent));
-	border-radius: var(--radius-box, 0.5rem);
-	padding: 1.25rem;
-	background: var(--color-base-200);
+.link-list-title {
+	font-weight: 600;
+	text-decoration: none;
 }
 
-.skill-card h3 {
-	margin-top: 0;
+.link-list-description {
+	margin: 0.35rem 0 0;
+	font-size: 0.9rem;
+	color: var(--lily-text-muted, var(--color-base-content));
 }
