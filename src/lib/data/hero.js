@@ -73,6 +73,10 @@ export const HERO = {
   "tagline": "Virlagen, Beispiller a Guidance fir Architekturdecisiounen opzezeechnen.",
   "translations": "Iwwersetzungen: "
  },
+ "nb-no": {
+  "tagline": "Maler, eksempler og veiledning for å dokumentere arkitekturbeslutninger.",
+  "translations": "Oversettelser: "
+ },
  "te-001": {
   "tagline": "ఆర్కిటెక్చర్ నిర్ణయాలను నమోదు చేయడానికి మూసలు, ఉదాహరణలు, మార్గదర్శకాలు.",
   "translations": "అనువాదాలు: "
@@ -397,6 +401,7 @@ export const ENDONYMS = {
  "ga-ie": "Gaeilge (Éire)",
  "lb-001": "Lëtzebuergesch",
  "lb-lu": "Lëtzebuergesch (Lëtzebuerg)",
+ "nb-no": "Norsk bokmål (Norge)",
  "te-001": "తెలుగు",
  "ta-001": "தமிழ்",
  "mr-001": "मराठी",
