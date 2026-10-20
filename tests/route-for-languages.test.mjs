@@ -56,6 +56,7 @@ const cases = [
 	[['nb-NO'], '/nb-no/'],
 	[['lo-LA'], '/lo-la/'],
 	[['km-KH'], '/km-kh/'],
+	[['gd-GB'], '/gd-gb/'],
 	[['te'], '/te-001/'],
 	[['ta'], '/ta-001/'],
 	[['mr'], '/mr-001/'],
