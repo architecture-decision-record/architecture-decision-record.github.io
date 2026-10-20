@@ -133,6 +133,10 @@ export const HERO = {
   "tagline": "Templat, contoh dan panduan untuk merekod keputusan seni bina.",
   "translations": "Terjemahan: "
  },
+ "kn-001": {
+  "tagline": "ವಾಸ್ತುಶಿಲ್ಪ ನಿರ್ಧಾರಗಳನ್ನು ದಾಖಲಿಸಲು ಟೆಂಪ್ಲೇಟುಗಳು, ಉದಾಹರಣೆಗಳು ಮತ್ತು ಮಾರ್ಗದರ್ಶನ.",
+  "translations": "ಅನುವಾದಗಳು: "
+ },
  "mt-001": {
   "tagline": "Mudelli, eżempji, u gwida biex jiġu rreġistrati d-deċiżjonijiet arkitettoniċi.",
   "translations": "Traduzzjonijiet: "
@@ -440,6 +444,7 @@ export const ENDONYMS = {
  "fa-001": "فارسی",
  "pa-001": "ਪੰਜਾਬੀ",
  "ms-001": "Bahasa Melayu",
+ "kn-001": "ಕನ್ನಡ",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
