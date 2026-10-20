@@ -53,6 +53,7 @@ const cases = [
 	[['fr-BE'], '/fr-be/'],
 	[['lb'], '/lb-001/'],
 	[['lb-LU'], '/lb-lu/'],
+	[['nb-NO'], '/nb-no/'],
 	[['te'], '/te-001/'],
 	[['ta'], '/ta-001/'],
 	[['mr'], '/mr-001/'],
@@ -76,7 +77,7 @@ const cases = [
 	[['am', 'am-ET', 'ja'], '/ja-001/'],
 	// nothing matches: English
 	[['am-ET'], '/en-001/'],
-	[['nb-NO'], '/en-001/'],
+	[['zu'], '/en-001/'],
 	[[], '/en-001/'],
 	[[''], '/en-001/']
 ];
