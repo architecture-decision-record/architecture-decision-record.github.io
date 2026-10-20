@@ -129,6 +129,10 @@ export const HERO = {
   "tagline": "ਆਰਕੀਟੈਕਚਰ ਫੈਸਲਿਆਂ ਨੂੰ ਦਰਜ ਕਰਨ ਲਈ ਟੈਂਪਲੇਟ, ਉਦਾਹਰਨਾਂ ਅਤੇ ਮਾਰਗਦਰਸ਼ਨ।",
   "translations": "ਅਨੁਵਾਦ: "
  },
+ "ms-001": {
+  "tagline": "Templat, contoh dan panduan untuk merekod keputusan seni bina.",
+  "translations": "Terjemahan: "
+ },
  "mt-001": {
   "tagline": "Mudelli, eżempji, u gwida biex jiġu rreġistrati d-deċiżjonijiet arkitettoniċi.",
   "translations": "Traduzzjonijiet: "
@@ -435,6 +439,7 @@ export const ENDONYMS = {
  "jv-001": "Basa Jawa",
  "fa-001": "فارسی",
  "pa-001": "ਪੰਜਾਬੀ",
+ "ms-001": "Bahasa Melayu",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
