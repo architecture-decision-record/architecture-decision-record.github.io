@@ -77,6 +77,10 @@ export const HERO = {
   "tagline": "Maler, eksempler og veiledning for å dokumentere arkitekturbeslutninger.",
   "translations": "Oversettelser: "
  },
+ "lo-la": {
+  "tagline": "ແມ່ແບບ, ຕົວຢ່າງ ແລະ ຄຳແນະນຳສຳລັບການບັນທຶກການຕັດສິນໃຈດ້ານສະຖາປັດຕະຍະກຳ.",
+  "translations": "ການແປ: "
+ },
  "te-001": {
   "tagline": "ఆర్కిటెక్చర్ నిర్ణయాలను నమోదు చేయడానికి మూసలు, ఉదాహరణలు, మార్గదర్శకాలు.",
   "translations": "అనువాదాలు: "
@@ -402,6 +406,7 @@ export const ENDONYMS = {
  "lb-001": "Lëtzebuergesch",
  "lb-lu": "Lëtzebuergesch (Lëtzebuerg)",
  "nb-no": "Norsk bokmål (Norge)",
+ "lo-la": "ລາວ (ລາວ)",
  "te-001": "తెలుగు",
  "ta-001": "தமிழ்",
  "mr-001": "मराठी",
