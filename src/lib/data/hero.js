@@ -369,6 +369,10 @@ export const HERO = {
   "tagline": "Mimari kararları kaydetmek için şablonlar, örnekler ve rehberlik.",
   "translations": "Çeviriler: "
  },
+ "uk-001": {
+  "tagline": "Шаблони, приклади та настанови для запису архітектурних рішень.",
+  "translations": "Переклади: "
+ },
  "ur-001": {
   "tagline": "آرکیٹیکچر کے فیصلے ریکارڈ کرنے کے لیے سانچے، مثالیں اور رہنمائی۔",
   "translations": "تراجم: "
@@ -489,6 +493,7 @@ export const ENDONYMS = {
  "th-th": "ไทย (ประเทศไทย)",
  "tr-001": "Türkçe",
  "tr-tr": "Türkçe (Türkiye)",
+ "uk-001": "Українська",
  "ur-001": "اردو",
  "vi-001": "Tiếng Việt",
  "vi-vn": "Tiếng Việt (Việt Nam)",
