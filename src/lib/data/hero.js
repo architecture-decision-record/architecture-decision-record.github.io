@@ -265,6 +265,10 @@ export const HERO = {
   "tagline": "Modèles, exemples et conseils pour consigner les décisions d'architecture.",
   "translations": "Traductions: "
  },
+ "he-001": {
+  "tagline": "תבניות, דוגמאות והנחיות לתיעוד החלטות ארכיטקטורה.",
+  "translations": "תרגומים: "
+ },
  "hi-001": {
   "tagline": "आर्किटेक्चर निर्णयों को दर्ज करने के लिए टेम्पलेट, उदाहरण और मार्गदर्शन।",
   "translations": "अनुवाद: "
@@ -467,6 +471,7 @@ export const ENDONYMS = {
  "fr-be": "Français (Belgique)",
  "fr-lu": "Français (Luxembourg)",
  "fr-fr": "Français (France)",
+ "he-001": "עברית",
  "hi-001": "हिन्दी",
  "hi-in": "हिन्दी (भारत)",
  "id-001": "Bahasa Indonesia",
