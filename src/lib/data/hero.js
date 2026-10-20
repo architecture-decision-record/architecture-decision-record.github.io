@@ -81,6 +81,10 @@ export const HERO = {
   "tagline": "ແມ່ແບບ, ຕົວຢ່າງ ແລະ ຄຳແນະນຳສຳລັບການບັນທຶກການຕັດສິນໃຈດ້ານສະຖາປັດຕະຍະກຳ.",
   "translations": "ການແປ: "
  },
+ "gd-gb": {
+  "tagline": "Teamplaidean, eisimpleirean agus stiùireadh airson co-dhùnaidhean ailtireachd a chlàradh.",
+  "translations": "Eadar-theangachaidhean: "
+ },
  "km-kh": {
   "tagline": "ពុម្ព ឧទាហរណ៍ និងការណែនាំសម្រាប់កត់ត្រាការសម្រេចចិត្តខាងស្ថាបត្យកម្ម។",
   "translations": "ការបកប្រែ៖ "
@@ -412,6 +416,7 @@ export const ENDONYMS = {
  "nb-no": "Norsk bokmål (Norge)",
  "lo-la": "ລາວ (ລາວ)",
  "km-kh": "ខ្មែរ (កម្ពុជា)",
+ "gd-gb": "Gàidhlig (An Rìoghachd Aonaichte)",
  "te-001": "తెలుగు",
  "ta-001": "தமிழ்",
  "mr-001": "मराठी",
