@@ -7,7 +7,7 @@
     "documents": 12,
     "templates": 11,
     "examples": 40,
-    "locales": 96
+    "locales": 97
   },
   "sections": {
     "documents": [
@@ -330,6 +330,7 @@
     "ja_001",
     "ja_JP",
     "jv_001",
+    "km_KH",
     "ko_001",
     "ko_KR",
     "lb_001",
