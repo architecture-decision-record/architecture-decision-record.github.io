@@ -7,7 +7,7 @@
     "documents": 12,
     "templates": 11,
     "examples": 40,
-    "locales": 100
+    "locales": 101
   },
   "sections": {
     "documents": [
@@ -343,6 +343,7 @@
     "lv_001",
     "lv_LV",
     "mr_001",
+    "ms_001",
     "mt_001",
     "mt_MT",
     "nb_NO",
