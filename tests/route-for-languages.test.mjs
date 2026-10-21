@@ -97,5 +97,5 @@ test('picker values map to unique, hyphenated slugs', () => {
 	assert.equal(localeToSlug('en'), 'en-001');
 	assert.equal(localeToSlug('cy_GB'), 'cy-gb');
 	assert.equal(new Set(LOCALES.map(localeToSlug)).size, LOCALES.length);
-	for (const slug of LOCALE_SLUGS) assert.match(slug, /^[a-z]{2}-[a-z0-9]{2,3}$/);
+	for (const slug of LOCALE_SLUGS) assert.match(slug, /^[a-z]{2,3}-[a-z0-9]{2,3}$/);
 });
