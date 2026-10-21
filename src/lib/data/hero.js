@@ -145,6 +145,10 @@ export const HERO = {
   "tagline": "Templets, examples, and guide fo how to record architecture decisions.",
   "translations": "Translations dem: "
  },
+ "kw-gb": {
+  "tagline": "Skantlynyow, ensamplow, ha gidyans rag talghen dybyrthow arkitektoryeth.",
+  "translations": "Treylyansow: "
+ },
  "wuu-001": {
   "tagline": "记录架构决策个模板、例子搭指南。",
   "translations": "翻译： "
@@ -465,6 +469,7 @@ export const ENDONYMS = {
  "pcm-001": "Naijá",
  "yue-001": "粵語",
  "wuu-001": "吴语",
+ "kw-gb": "kernewek (Rywvaneth Unys)",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
