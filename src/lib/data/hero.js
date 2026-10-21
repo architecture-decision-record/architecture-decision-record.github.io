@@ -137,6 +137,10 @@ export const HERO = {
   "tagline": "ವಾಸ್ತುಶಿಲ್ಪ ನಿರ್ಧಾರಗಳನ್ನು ದಾಖಲಿಸಲು ಟೆಂಪ್ಲೇಟುಗಳು, ಉದಾಹರಣೆಗಳು ಮತ್ತು ಮಾರ್ಗದರ್ಶನ.",
   "translations": "ಅನುವಾದಗಳು: "
  },
+ "tl-001": {
+  "tagline": "Mga template, halimbawa, at gabay para sa pagtatala ng mga desisyon sa arkitektura.",
+  "translations": "Mga pagsasalin: "
+ },
  "mt-001": {
   "tagline": "Mudelli, eżempji, u gwida biex jiġu rreġistrati d-deċiżjonijiet arkitettoniċi.",
   "translations": "Traduzzjonijiet: "
@@ -445,6 +449,7 @@ export const ENDONYMS = {
  "pa-001": "ਪੰਜਾਬੀ",
  "ms-001": "Bahasa Melayu",
  "kn-001": "ಕನ್ನಡ",
+ "tl-001": "Filipino",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
