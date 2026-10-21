@@ -74,14 +74,16 @@
 		kw_GB: 'Breten Veur',
 		sco_GB: 'Great Britain'
 	};
-	// Browsers lack display-name data for Welsh, Scots and Cornish (they show "Sco", "Kw"),
+	// Browsers lack display-name data for Welsh, Scots, Cornish, Nigerian Pidgin and Wu Chinese (they show "Sco", "Kw", "PCM"),
 	// show Scottish Gaelic in English, and shorten Indonesian to "Indonesia".
 	const LANGUAGE_OVERRIDES: Record<string, string> = {
 		cy: 'Cymraeg',
 		gd: 'Gàidhlig',
 		id: 'Bahasa Indonesia',
 		kw: 'Kernewek',
-		sco: 'Scots'
+		pcm: 'Naijá',
+		sco: 'Scots',
+		wuu: '吴语'
 	};
 	const LOCALE_LABELS = Object.fromEntries(
 		LOCALES.map((l) => {
