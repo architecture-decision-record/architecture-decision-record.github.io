@@ -153,6 +153,14 @@ export const HERO = {
   "tagline": "Skantlynyow, ensamplow, ha gidyans rag talghen dybyrthow arkitektoryeth.",
   "translations": "Treylyansow: "
  },
+ "sco-gb": {
+  "tagline": "Templats, ensamples, an guide for hoo tae record architectur decisiouns.",
+  "translations": "Owersettins: "
+ },
+ "sco-001": {
+  "tagline": "Templats, ensamples, an guide for hoo tae record architectur decisiouns.",
+  "translations": "Owersettins: "
+ },
  "wuu-001": {
   "tagline": "记录架构决策个模板、例子搭指南。",
   "translations": "翻译： "
@@ -475,6 +483,8 @@ export const ENDONYMS = {
  "wuu-001": "吴语",
  "kw-001": "kernewek",
  "kw-gb": "kernewek (Rywvaneth Unys)",
+ "sco-001": "Scots (Warld)",
+ "sco-gb": "Scots (Unitit Kinrick)",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
