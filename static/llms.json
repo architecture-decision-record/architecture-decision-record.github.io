@@ -7,7 +7,7 @@
     "documents": 12,
     "templates": 11,
     "examples": 40,
-    "locales": 110
+    "locales": 111
   },
   "sections": {
     "documents": [
@@ -304,6 +304,7 @@
     "et_001",
     "et_EE",
     "eu_001",
+    "eu_ES",
     "fa_001",
     "fi_001",
     "fi_FI",
