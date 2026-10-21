@@ -77,7 +77,15 @@ export const HERO = {
   "tagline": "Maler, eksempler og veiledning for å dokumentere arkitekturbeslutninger.",
   "translations": "Oversettelser: "
  },
+ "nb-001": {
+  "tagline": "Maler, eksempler og veiledning for å dokumentere arkitekturbeslutninger.",
+  "translations": "Oversettelser: "
+ },
  "lo-la": {
+  "tagline": "ແມ່ແບບ, ຕົວຢ່າງ ແລະ ຄຳແນະນຳສຳລັບການບັນທຶກການຕັດສິນໃຈດ້ານສະຖາປັດຕະຍະກຳ.",
+  "translations": "ການແປ: "
+ },
+ "lo-001": {
   "tagline": "ແມ່ແບບ, ຕົວຢ່າງ ແລະ ຄຳແນະນຳສຳລັບການບັນທຶກການຕັດສິນໃຈດ້ານສະຖາປັດຕະຍະກຳ.",
   "translations": "ການແປ: "
  },
@@ -85,7 +93,15 @@ export const HERO = {
   "tagline": "Teamplaidean, eisimpleirean agus stiùireadh airson co-dhùnaidhean ailtireachd a chlàradh.",
   "translations": "Eadar-theangachaidhean: "
  },
+ "gd-001": {
+  "tagline": "Teamplaidean, eisimpleirean agus stiùireadh airson co-dhùnaidhean ailtireachd a chlàradh.",
+  "translations": "Eadar-theangachaidhean: "
+ },
  "km-kh": {
+  "tagline": "ពុម្ព ឧទាហរណ៍ និងការណែនាំសម្រាប់កត់ត្រាការសម្រេចចិត្តខាងស្ថាបត្យកម្ម។",
+  "translations": "ការបកប្រែ៖ "
+ },
+ "km-001": {
   "tagline": "ពុម្ព ឧទាហរណ៍ និងការណែនាំសម្រាប់កត់ត្រាការសម្រេចចិត្តខាងស្ថាបត្យកម្ម។",
   "translations": "ការបកប្រែ៖ "
  },
@@ -466,9 +482,13 @@ export const ENDONYMS = {
  "lb-001": "Lëtzebuergesch",
  "lb-lu": "Lëtzebuergesch (Lëtzebuerg)",
  "nb-no": "Norsk bokmål (Norge)",
+ "nb-001": "Norsk bokmål (Verden)",
  "lo-la": "ລາວ (ລາວ)",
+ "lo-001": "ລາວ (ໂລກ)",
  "km-kh": "ខ្មែរ (កម្ពុជា)",
+ "km-001": "ខ្មែរ (ពិភពលោក)",
  "gd-gb": "Gàidhlig (An Rìoghachd Aonaichte)",
+ "gd-001": "Gàidhlig (An Saoghal)",
  "te-001": "తెలుగు",
  "ta-001": "தமிழ்",
  "mr-001": "मराठी",
