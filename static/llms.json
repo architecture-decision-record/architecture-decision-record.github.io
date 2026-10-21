@@ -7,7 +7,7 @@
     "documents": 12,
     "templates": 11,
     "examples": 40,
-    "locales": 111
+    "locales": 115
   },
   "sections": {
     "documents": [
@@ -314,6 +314,7 @@
     "fr_LU",
     "ga_001",
     "ga_IE",
+    "gd_001",
     "gd_GB",
     "gu_001",
     "ha_001",
@@ -333,6 +334,7 @@
     "ja_001",
     "ja_JP",
     "jv_001",
+    "km_001",
     "km_KH",
     "kn_001",
     "ko_001",
@@ -341,6 +343,7 @@
     "kw_GB",
     "lb_001",
     "lb_LU",
+    "lo_001",
     "lo_LA",
     "lt_001",
     "lt_LT",
@@ -350,6 +353,7 @@
     "ms_001",
     "mt_001",
     "mt_MT",
+    "nb_001",
     "nb_NO",
     "nl_001",
     "nl_BE",
