@@ -113,6 +113,10 @@ export const HERO = {
   "tagline": "Arkitektura-erabakiak erregistratzeko txantiloiak, adibideak eta gidak.",
   "translations": "Itzulpenak: "
  },
+ "eu-es": {
+  "tagline": "Arkitektura-erabakiak erregistratzeko txantiloiak, adibideak eta gidak.",
+  "translations": "Itzulpenak: "
+ },
  "bh-001": {
   "tagline": "आर्किटेक्चर फैसला दर्ज करे खातिर टेम्पलेट, उदाहरण, आ मार्गदर्शन।",
   "translations": "अनुवाद: "
@@ -471,6 +475,7 @@ export const ENDONYMS = {
  "ha-001": "Hausa",
  "gu-001": "ગુજરાતી",
  "eu-001": "Euskara",
+ "eu-es": "Euskara (Espainia)",
  "bh-001": "भोजपुरी",
  "jv-001": "Basa Jawa",
  "fa-001": "فارسی",

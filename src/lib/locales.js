@@ -7,7 +7,7 @@
 export const LOCALES = [
 	'ar_001', 'bg_001', 'bg_BG', 'bh_001', 'bn_001', 'cs_001', 'cs_CZ', 'cy_001', 'cy_GB', 'da_001', 'da_DK', 'de_001',
 	'de_AT', 'de_DE', 'el_001', 'el_CY', 'el_GR', 'en', 'en_GB', 'en_IE', 'en_US', 'es_001', 'es_ES', 'et_001',
-	'et_EE', 'eu_001', 'fa_001', 'fi_001', 'fi_FI', 'fr_001', 'fr_BE', 'fr_FR', 'fr_LU', 'ga_001', 'ga_IE', 'gd_GB',
+	'et_EE', 'eu_001', 'eu_ES', 'fa_001', 'fi_001', 'fi_FI', 'fr_001', 'fr_BE', 'fr_FR', 'fr_LU', 'ga_001', 'ga_IE', 'gd_GB',
 	'gu_001', 'ha_001', 'he_001', 'hi_001', 'hi_IN', 'hr_001', 'hr_HR', 'hu_001', 'hu_HU', 'id_001', 'id_ID', 'is_001',
 	'is_IS', 'it_001', 'it_IT', 'ja_001', 'ja_JP', 'jv_001', 'km_KH', 'kn_001', 'ko_001', 'ko_KR', 'kw_001', 'kw_GB',
 	'lb_001', 'lb_LU', 'lo_LA', 'lt_001', 'lt_LT', 'lv_001', 'lv_LV', 'mr_001', 'ms_001', 'mt_001', 'mt_MT', 'nb_NO',
