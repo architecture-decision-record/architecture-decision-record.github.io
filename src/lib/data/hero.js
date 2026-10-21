@@ -145,6 +145,10 @@ export const HERO = {
   "tagline": "Templets, examples, and guide fo how to record architecture decisions.",
   "translations": "Translations dem: "
  },
+ "wuu-001": {
+  "tagline": "记录架构决策个模板、例子搭指南。",
+  "translations": "翻译： "
+ },
  "yue-001": {
   "tagline": "用嚟記錄架構決策嘅範本、例子同指引。",
   "translations": "翻譯： "
@@ -460,6 +464,7 @@ export const ENDONYMS = {
  "tl-001": "Filipino",
  "pcm-001": "Naijá",
  "yue-001": "粵語",
+ "wuu-001": "吴语",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
