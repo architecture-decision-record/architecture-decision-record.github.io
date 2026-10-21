@@ -141,6 +141,10 @@ export const HERO = {
   "tagline": "Mga template, halimbawa, at gabay para sa pagtatala ng mga desisyon sa arkitektura.",
   "translations": "Mga pagsasalin: "
  },
+ "pcm-001": {
+  "tagline": "Templets, examples, and guide fo how to record architecture decisions.",
+  "translations": "Translations dem: "
+ },
  "mt-001": {
   "tagline": "Mudelli, eżempji, u gwida biex jiġu rreġistrati d-deċiżjonijiet arkitettoniċi.",
   "translations": "Traduzzjonijiet: "
@@ -450,6 +454,7 @@ export const ENDONYMS = {
  "ms-001": "Bahasa Melayu",
  "kn-001": "ಕನ್ನಡ",
  "tl-001": "Filipino",
+ "pcm-001": "Naijá",
  "mt-001": "Malti",
  "mt-mt": "Malti (Malta)",
  "lv-001": "Latviešu",
