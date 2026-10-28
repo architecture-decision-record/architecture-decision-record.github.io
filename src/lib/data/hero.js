@@ -1,5 +1,5 @@
-// Hand-authored hero strings (subheadline and the Language label) and locale endonyms.
-/** @type {Record<string, {tagline: string, translations: string (the translated word "Language" and ": ")}>} */
+// Hand-authored hero strings (subheadline and the Language label: the translated word "Language", a colon and a space) and locale endonyms.
+/** @type {Record<string, {tagline: string, translations: string}>} */
 export const HERO = {
  "ar-001": {
   "tagline": "قوالب وأمثلة وإرشادات لتوثيق قرارات البنية المعمارية.",
